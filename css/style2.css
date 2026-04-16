@@ -1,0 +1,65 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* FUNDO */
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+  
+    background: 
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url("bg.jpg");
+  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* HEADER */
+  header {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.8);
+  }
+  
+  /* CONTAINER */
+  .container {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* CARDS */
+  .card {
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    background: rgba(0,0,0,0.9);
+  }
+  
+  /* BOTÃO */
+  .btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #0ea5e9;
+  }
+  
