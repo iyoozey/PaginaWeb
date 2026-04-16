@@ -1,0 +1,99 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUNDO */
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("/img/Revoluçaõind.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: rgba(0,0,0,0.9);
+}
+
+/* TIMELINE */
+.timeline {
+  margin-top: 30px;
+}
+
+.evento {
+  margin: 20px 0;
+}
+
+.evento span {
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.8);
+}
